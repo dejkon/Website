@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+}
+
+.center {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+.right {
+    width: 10%;
+}
+
+.parallax {
+    /* ../ traverses up a folder in the file structure */
+    background-image: url("../images/background.jpg");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+Try it Yourself »
