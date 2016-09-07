@@ -4,6 +4,24 @@
 <title>My Website</title>
 <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<!-- REQUIRED FOR PARALLAX -->
+<script type="text/javascript" language="JavaScript" src="js/jquery.jparallax.min.js" ></script>
+<script type="text/javascript" language="JavaScript" src="js/jquery.event.frame.js" ></script>
+
+<link lang="text/css" href="css/styles.css" />
+
+<script type="text/javascript">
+jQuery(document).ready(function()
+{
+	$('#parallax .parallax-layer')
+	.parallax({
+		mouseport: $('#parallax')
+	});
+});
+</script>
+<!-- END SECTION -->
+
 </head>
 	<body>
 
